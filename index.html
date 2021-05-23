@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.1/aos.css">-->
 </head>
 <body>
 
@@ -47,9 +49,9 @@
     </div>
     <div>
         <div class="heading-content">
-            <h5>Hello, I'm</h5>
-            <h1>Charles Anderson</h1>
-            <p>AND THIS IS MY WORLD</p>
+            <h5 data-aos="fade-up">Hello, I'm</h5>
+            <h1 data-aos="fade-up">Charles Anderson</h1>
+            <p data-aos="fade-down">AND THIS IS MY WORLD</p>
         </div>
     </div>
 </div>
@@ -61,10 +63,11 @@
         <hr class="w-50  mx-auto ">
     </div>
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right" >
             <img src="img/back1.jpg" alt="" class="img-fluid">
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12" data-aos="fade-left"
+             data-aos-duration="1000">
             <h2>Wanna Know Me?</h2>
             <hr>
             <p>
@@ -89,7 +92,7 @@
         <hr class="w-50  mx-auto ">
     </div>
     <div class="row">
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up"  >
             <div class="card" >
                 <img src="img/service1.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -99,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up"  >
             <div class="card" >
                 <img src="img/service2.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -109,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up"  >
             <div class="card" >
                 <img src="img/service3.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -119,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up" >
             <div class="card" >
                 <img src="img/service4.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -129,7 +132,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up" >
             <div class="card" >
                 <img src="img/service5.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -139,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="col-lg-4 col-md-6 col-12 pb-5" data-aos="fade-up"  >
             <div class="card" >
                 <img src="img/service6.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -149,14 +152,14 @@
                 </div>
             </div>
         </div>
-        <button class="button w-50 mx-auto mb-5">
+        <button class="button w-50 mx-auto mb-5" data-aos="fade-up">
             <a href="#">Know More</a>
         </button>
     </div>
 </div>
 
 
-<section class="sec1 container-fluid mt-5 pb-5">
+<section class="sec1 container-fluid mt-5 pb-5" data-aos="fade-right" >
     <h2 class="mt-5">NewsLetter</h2>
     <p>Subscribt to our newsletter our latest news.</p>
     <form class="form-inline mt-2" action="/action_page.php">
@@ -166,7 +169,7 @@
 </section>
 
 
-<div id="contact" class="w-50 mx-auto mt-5 mb-5">
+<div id="contact" class="w-50 mx-auto mt-5 mb-5" data-aos="fade-left">
     <div class="post-heading text-center">
         <h3 class="display-4 font-weight-bold">Contact Us</h3>
         <hr class="w-50  mx-auto ">
@@ -245,8 +248,19 @@
 <!-- Footer -->
 
 
+<!--<script src="https://unpkg.com/scrollreveal"></script>-->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.1/aos.js"></script>-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+
+        duration: 1000
+    });
+</script>
+
 </body>
 </html>
