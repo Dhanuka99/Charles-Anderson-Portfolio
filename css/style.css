@@ -52,3 +52,78 @@ body{
     word-spacing: 5px;
     letter-spacing: 2px;
 }
+
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+#service .button{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#service .button:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f8fafb;
+}
+
+.sec1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.footer-copyright{
+    color: #fff;
+}
+
+.footer-copyright a{
+    color: #fff;
+    text-decoration: none;
+}
